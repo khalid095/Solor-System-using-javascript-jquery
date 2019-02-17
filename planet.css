@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+audio{
+    display: none;
+}
+.sun{
+    margin-top: 150px;
+}
+.mercury{
+    margin-bottom: 100px;
+}
+.venus{
+    margin-bottom: 120px;
+}
+.earth{
+    margin-bottom: 170px;
+}
+.mars{
+    margin-bottom: 250px;
+}
+.jupiter{
+    margin-bottom: 200px;
+}
+.saturn{
+    margin-bottom: 250px;
+}
+.uranus{
+    margin-bottom: 300px;
+}
+.neptune{
+    margin-bottom: 340px;
+}
+.pluto{
+    margin-bottom: 430px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link href="planet.css" rel="stylesheet">
+<title>solorsystem using jquery</title>    
+</head>
+    <body>
+        <p id="text" class="planet" style="color: white">click on planet</p>
+        
+        <audio controls autoplay="true">
+        <source src="audio.mp3" type="audio/wav">
+        </audio>
+    <img  id="su" src="sun.jpg" class="sun" height="400">
+        <img id="me" src="mercury.jpg" class="mercury" height="50">
+        <img id="ve" src="Venus.jpg" class="venus" height="90">
+        <img id="ea" src="earth.jpg" class="earth" height="100">
+        <img id="ma" src="mars.jpg" class="mars" height="90">
+        <img id="ju" src="Jupiter.jpg" class="jupiter" height="140">
+        <img id="sa" src="Saturn.png" class="saturn" height="130">
+        <img id="ur" src="uranus.jpg" class="uranus" height="100">
+        <img id="ne" src="NEPTUNE.jpg" class="neptune" height="100">
+        <img id="pu" src="pluto.jpg" class="pluto" height="35">
+        
+        <script>
+        $(".sun").click(function(){
+            $("p").text("The sun lies at the heart of the solor system,where it is by far the largest object.it holds 99.8 percent of the solor system's mass and is roughly 109 times the siameter of the earth-about one million earth could fit inside the sun. ")
+        });
+            $(".mercury").click(function(){
+                $("p").text("Mercury is the smallest and innermost planet in the Solar System. Its orbital period around the Sun of 87.97 days is the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger of the gods.")
+            });
+            
+            $(".venus").click(function(){
+                $("p").text("Venus is the second planet from the Sun, orbiting it every 224.7 Earth days. It has the longest rotation period of any planet in the Solar System and rotates in the opposite direction to most other planets. It does not have any natural satellites. It is named after the Roman goddess of love and beauty.")
+            });
+            
+            $(".earth").click(function(){
+                $("p").text("Earth is the third planet from the Sun and the only astronomical object known to harbor life. According to radiometric dating and other sources of evidence, Earth formed over 4.5 billion years ago. Earth's gravity interacts with other objects in space, especially the Sun and the Moon, Earth's only natural satellite.");
+            });
+            
+            $(".mars").click(function(){
+                $("p").text("Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury.")
+            });
+            
+            $(".jupiter").click(function(){
+                $("p").text("Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a giant planet with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined. ")
+            });
+            
+            $(".saturn").click(function(){
+                $("p").text("Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. It has only one-eighth the average density of Earth, but with its larger volume Saturn is over 95 times more massive.")
+            });
+            
+            $(".uranus").click(function(){
+                $("p").text("Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn.")
+            });
+            
+            $(".neptune").click(function(){
+                $("p").text("Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.")
+            });
+            $(".pluto").click(function(){
+                $("p").text("Pluto is a dwarf planet in the Kuiper belt, a ring of bodies beyond Neptune. It was the first Kuiper belt object to be discovered and is the largest known plutoid. Pluto was discovered by Clyde Tombaugh in 1930 and was originally considered to be the ninth planet from the Sun.")
+            });
+        </script>
+    </body>
+</html>
